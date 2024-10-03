@@ -1,0 +1,71 @@
+.icontext {
+  background-color: gold;
+  border-radius: 1.5em;
+  display: flex;
+  align-items: center;
+  padding-left: 1.5em;
+  gap: 10px;
+}
+.outbox {
+  justify-content: center;
+}
+.eachnote {
+  margin-top: 2%;
+  border: 2px solid;
+  position: relative;
+}
+.noteicon {
+  justify-items: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 10px;
+}
+.icon {
+  margin-right: 0.5em;
+  height: 20px;
+  width: 20px;
+  justify-content: space-between;
+}
+.notetext {
+}
+.container {
+  display: block;
+  justify-content: left;
+  gap: 1.5em;
+  width: 100%;
+}
+.input-container {
+  margin-top: 10px;
+  position: relative;
+  width: 100%; /* Adjust width as needed */
+  border-radius: 5px;
+  border: 2px solid;
+  border-color: black;
+}
+
+input {
+  width: 100%;
+  padding-right: 60px; /* Adjust to make space for the button */
+  padding: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  border: none; /* Ensures padding doesn't overflow the input */
+}
+
+button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0 15px;
+  border: none;
+  background-color: gold;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+}
